@@ -30,6 +30,16 @@ const projects = [
     demoUrl: "https://journ-new-ed8c.vercel.app/",
     githubUrl: "https://github.com/Aravind5Mukundam/journNew",
   },
+  {
+    id: 4,
+    title: "Assembly-EndGame",
+    description:
+      "Guess the word within 8 attempts to keep the programming world safe from Assembly!",
+    image: "/projects/project4.png",
+    tags: ["React", "TypeScript", "Confetti"],
+    demoUrl: "https://guesstheword-endgame.netlify.app/",
+    githubUrl: "https://github.com/Aravind5Mukundam/Assembly-EndGame",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -45,7 +55,7 @@ const ProjectsSection = () => {
           crafted with attention to detail, performance, and user experience.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {projects.map((project, key) => (
             <div
               key={key}
@@ -59,7 +69,7 @@ const ProjectsSection = () => {
                 />
               </div>
               <div className="p-6">
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-4 justify-center">
                   {project.tags.map((tag) => (
                     <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
                       {tag}

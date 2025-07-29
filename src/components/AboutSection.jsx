@@ -1,4 +1,4 @@
-import {  Code,  Figma,  Laptop2 } from "lucide-react";
+import { Code, Figma, Laptop2 } from "lucide-react";
 import React from "react";
 
 const AboutSection = () => {
@@ -32,8 +32,8 @@ const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                 href="/Resume_Mukundam_Aravind.pdf"
-  download
+                href="/Resume_Mukundam_Aravind.pdf"
+                download
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 {" "}
