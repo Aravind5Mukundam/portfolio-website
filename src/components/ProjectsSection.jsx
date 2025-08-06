@@ -40,6 +40,16 @@ const projects = [
     demoUrl: "https://guesstheword-endgame.netlify.app/",
     githubUrl: "https://github.com/Aravind5Mukundam/Assembly-EndGame",
   },
+  {
+    id: 5,
+    title: "Trello-Clone",
+    description:
+      "Collaborate, manage projects, and reach new productivity peaks. From high rises to the home office, the way your team works is unique—accomplish it all with TrelloClone.",
+    image: "/projects/project5.png",
+    tags: ["React", "Nextjs", "TypeScript","Supabase","Clerk"],
+    demoUrl: "https://trelloclone123.netlify.app/",
+    githubUrl: "https://github.com/Aravind5Mukundam/trello_clone",
+  },
 ];
 
 const ProjectsSection = () => {
