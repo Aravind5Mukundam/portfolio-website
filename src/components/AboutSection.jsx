@@ -15,7 +15,7 @@ const AboutSection = () => {
               Passionate Frontend Developer
             </h3>
             <p className="text-muted-foreground">
-              With over 3 years of experience in web development, I focus on
+              With over 4 years of experience in web development, I focus on
               building responsive, accessible, and high-performance web
               applications using modern development practices.
             </p>
