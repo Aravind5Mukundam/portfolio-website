@@ -6,7 +6,7 @@ const experiences = [
     role: "Frontend Developer",
     company: "WalkoutTech Private Limited",
     location: "Hyderabad",
-    date: "Sep 2025 – Present",
+    date: "Sep 2025 – Aug 2026",
     bullets: [
       "Architected a production-grade HRMS web application from scratch using React.js, serving as the sole frontend owner on a startup product team.",
       "Engineered a multi-layered security system with OTP authentication, JWT-based API authorization, and RBAC for Employee, Manager, and Admin personas.",
